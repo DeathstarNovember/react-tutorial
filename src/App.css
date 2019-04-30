@@ -1,0 +1,39 @@
+.app {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: #b1b1b1;
+}
+
+.appHeader {
+  text-align: left;
+  display: block;
+  padding: 1rem;
+  background-color: #313337;
+  width: 100vw;
+  height: 10vh;
+}
+
+.todoList {
+  padding: 10px;
+}
+
+.completedTodo {
+  text-decoration: line-through;
+}
+
+.input-group {
+  padding: 5px;
+}
+
+.card {
+  margin: 5px;
+  background-color: lightblue;
+  color: rgb(34, 34, 34);
+}
+.card-body {
+  display: flex;
+  justify-content: space-between;
+}
